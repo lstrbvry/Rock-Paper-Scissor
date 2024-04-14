@@ -1,0 +1,28 @@
+@media (width < 460px){
+  .move {
+    padding: 21px;
+  }
+  button img,
+  .moved {
+    width: 34px;
+    height: 34px;
+  }
+  }
+@media (width < 320px){
+  body, .reset-button, .auto-play, .confirmation-reset{
+    font-size: .5rem;
+  }
+  .result-bold{
+    font-size: 1rem;
+  }
+}
+@media (width < 320px){
+  .move {
+    padding: 13px;
+  }
+  button img,
+  .moved {
+    width: 21px;
+    height: 21px;
+  }
+}

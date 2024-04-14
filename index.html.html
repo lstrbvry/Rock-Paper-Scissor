@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="css/12b.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="css/12b-media.css"
+		/>
+		<title>Rock Paper Scissor</title>
+		<style>
+			.confirmation-reset {
+				margin-top: 10px;
+				padding: 13px;
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Rock Paper Scissor</h1>
+		<div class="main">
+			<button
+				class="move"
+				onclick="
+      player = 'Rock';
+      packedFunctions();
+			
+		
+    "
+			>
+				<img
+					src="img/rock-emoji.png"
+					alt=""
+				/>
+			</button>
+			<button
+				class="move"
+				onclick="
+      player = 'Paper'
+      packedFunctions();
+			
+    "
+			>
+				<img
+					src="img/paper-emoji.png"
+					alt=""
+				/>
+			</button>
+			<button
+				class="move"
+				onclick="
+      player = 'Scissor';
+      packedFunctions();
+			
+    "
+			>
+				<img
+					src="img/scissor-emoji.png"
+					alt=""
+				/>
+			</button>
+			<p class="js-announce p-announce"></p>
+			<p class="js-score"></p>
+
+			<div class="buttons-bottom">
+				<button
+					class="reset-button"
+					onclick="
+			displayConfirmation();
+		"
+				>
+					Reset Score
+				</button>
+				<button class="auto-play">Auto-Play</button>
+			</div>
+			<div class="confirmation"></div>
+		</div>
+		<footer>
+			<p>@supersimple.dev project - Rock Paper Scissor</p>
+		</footer>
+		<script src="javascript/12b.js"></script>
+	</body>
+</html>
